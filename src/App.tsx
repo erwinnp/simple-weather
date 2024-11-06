@@ -1,9 +1,9 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
+import { ForecastWeatherCard } from './components/ForecastWeatherCard';
 import { Loader } from './components/Loader';
 import { WeatherCard } from './components/WeatherCard';
-import { ForecastWeatherCard } from './components/forecastWeatherCard';
 import { searchInputSchema } from './form-schema';
 import { fetchWeather, fetchWeatherForecast } from './service/apiWeather';
 import { useWeatherStore } from './store/weatherStore';
