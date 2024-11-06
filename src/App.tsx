@@ -68,7 +68,7 @@ export default function Home() {
   };
 
   return (
-    <main className='bg-zinc-900 min-h-screen flex items-center w-full py-20 lg:py-8'>
+    <main className='bg-zinc-900 min-h-screen flex items-center w-full py-20 lg:py-8 font-RethinkSans'>
       <section className='max-w-screen-sm w-full mx-auto text-white flex flex-col gap-6 px-4 lg:px-0'>
         <h1 className='text-center text-2xl lg:text-4xl font-semibold'>
           Simple Weather
